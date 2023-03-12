@@ -83,3 +83,23 @@
  ************************************************* DAY 2 ***************************************************************
   BRANCHING
   git branch -a -> show me all branch
+  git branch irem -> create irem branch
+  git checkout irem -> switched to irem branch
+  created a code : MySixthClass
+  create a new commit and push
+     git add .
+     git commit -m "message"
+     git push
+  Then codes will be in the remote irem branch
+
+  ***One more side branch flow
+     Create a class "My Seventh Class"
+     Create a new commit and push
+      git add .
+      git commit -m "message"
+      git push
+    Then new codes will be in remote irem branch
+    Then in GitHub expert or us will do:
+    Pull request (PR)()US OR EXPERT
+    Then code Review(Expert)
+    Then Code Merge(Expert)
